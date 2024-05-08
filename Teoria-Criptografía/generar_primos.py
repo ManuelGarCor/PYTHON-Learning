@@ -28,8 +28,8 @@ def generate_prime_with_shared_bits(shared_bits_length, total_bits_length):
     return prime1, prime2
 
 # Ejemplo de uso:
-shared_bits_length = 512
-total_bits_length = 1024
+shared_bits_length = 256
+total_bits_length = 512
 prime1, prime2 = generate_prime_with_shared_bits(shared_bits_length, total_bits_length)
 
 print(f"Primo 1:\n{prime1}\n")
